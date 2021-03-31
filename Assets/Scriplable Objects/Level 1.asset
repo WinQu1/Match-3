@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25ce998c94eacc44928a33472c5814f, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 6
+  height: 7
+  boardLayout: []
+  dots:
+  - {fileID: 1214269569485460, guid: 87689e31185681042a77e3fe0a1bcf17, type: 3}
+  - {fileID: 1914298612004736, guid: 83e77bfcf1a8fed4f85acc1e99c5eb32, type: 3}
+  - {fileID: 1362199779165814, guid: e6514a4681096ee49a38d0afb5c05d22, type: 3}
+  - {fileID: 1883982047300188, guid: 9592901290b74924c8105f6f020dc211, type: 3}
+  - {fileID: 1413539556339450, guid: 21e7e9604fc3fcf41b31660f8182aa1e, type: 3}
+  scoreGoals: 640000009001000058020000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 60
+  levelGoals:
+  - numberNeeded: 6
+    numberCollected: 3
+    goalSprite: {fileID: 21300000, guid: a56633f4f92d2db439f25c3daaa2ffae, type: 3}
+    matchValue: Teal Dot
